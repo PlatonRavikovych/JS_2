@@ -87,9 +87,8 @@ function t14() {
 document.querySelector('.b-14').onclick = t14;
 
 // Task 15.
-
 function t15() {
-
+    document.querySelector('.i-15').style.border = "4px solid red";
 }
 
 document.querySelector('.b-15').onclick = t15;
@@ -97,41 +96,48 @@ document.querySelector('.b-15').onclick = t15;
 // Task 16.
 
 function t16() {
-    
+    let a = document.querySelector('.i-16-1').value;
+    let b = document.querySelector('.i-16-2').value;
+    document.querySelector('.out-16').innerHTML = a + b;
 }
+
 document.querySelector('.b-16').onclick = t16;
 
+
 // Task 17.
-
-
 function t17() {
-    
+    let a = document.querySelector('.i-17').value;
+    document.querySelector('.out-17').innerHTML = a;
 }
 
 document.querySelector('.b-17').onclick = t17;
 
+
 // Task 18.
-
-
 function t18() {
-    
+    let a = document.querySelector('.i-18').value;
+    document.querySelector('.out-18').innerHTML = parseFloat(a);
 }
 
 document.querySelector('.b-18').onclick = t18;
 
-// Task 19.
 
+// Task 19.
 function t19() {
-    
+    let a = document.querySelector('.i-19-1').value;
+    let b = document.querySelector('.i-19-2').value;
+    document.querySelector('.out-19').innerHTML = Number(a) + Number(b);
 }
 
 document.querySelector('.b-19').onclick = t19;
 
-// Task 20
 
+// Task 20
+let count = 0; 
 
 function t20() {
-    
+    count = count + 1; 
+    document.querySelector('.out-20').innerHTML = count;
 }
 
 document.querySelector('.b-20').onclick = t20;

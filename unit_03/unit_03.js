@@ -24,6 +24,8 @@ document.querySelector('.b-2').onclick = f2;
 function f3(){
    let num1 = document.querySelector('.i-31').value;
    let num2 = document.querySelector('.i-32').value;
+   let result = (num1 > num2)? num1 : num2;
+   document.querySelector('.out-3').textContent = result;
 }
 
 document.querySelector('.b-3').onclick = f3;
